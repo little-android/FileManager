@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FileManager</string>
+    <string name="menu_button_edit">Edit</string>
+    <string name="menu_button_cancel">Cancel</string>
+</resources>

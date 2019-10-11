@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--禁止按钮大写-->
+        <item name="textAllCaps">false</item>
+
+        <!-- actionBar 字体颜色-->
+        <item name="actionMenuTextColor">@color/colorActionMenuText</item>
+
+        <item name="actionMenuTextAppearance">
+            @style/fileManagerActionMenuTextAppearance
+        </item>
+
+    </style>
+
+    <!--actionBar 字体大小-->
+    <style name="fileManagerActionMenuTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
