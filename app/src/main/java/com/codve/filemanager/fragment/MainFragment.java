@@ -2,10 +2,10 @@ package com.codve.filemanager.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,6 +14,10 @@ import androidx.fragment.app.Fragment;
 import com.codve.filemanager.R;
 
 public class MainFragment extends Fragment {
+
+    private ImageButton mButtonBack;
+    private TextView mTextViewTitle;
+    private TextView mTextViewEdit;
 
     public static MainFragment newInstance() {
         return new MainFragment();
@@ -28,11 +32,9 @@ public class MainFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_main, container, false);
-        return view;
-    }
+        mButtonBack = (ImageButton) view.findViewById(R.id.navigation_button_back);
 
-    @Override
-    public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
+
+        return view;
     }
 }

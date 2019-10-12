@@ -40,8 +40,7 @@
             android:text="@string/navigation_button_edit"
             android:textColor="@color/colorNavigationButton"
             android:textSize="@dimen/navigation_title"
-            android:layout_marginEnd="10dp"
-            android:textStyle="bold"
+            android:layout_marginEnd="16dp"
             android:layout_gravity="end"/>
 
     </androidx.appcompat.widget.Toolbar>
