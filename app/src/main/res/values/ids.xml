@@ -5,5 +5,8 @@
     <item name="navigation_button_back" type="id" />
     <item name="navigation_title" type="id" />
     <item name="navigation_button_edit" type="id"/>
+    <item name="search_bar" type="id" />
+    <item name="search_editText" type="id" />
+    <item name="navigation_bar_divider" type="id" />
 
 </resources>

@@ -4,4 +4,5 @@
     <string name="navigation_button_back">back to parent folder</string>
     <string name="navigation_button_edit">Edit</string>
     <string name="navigation_button_cancel">Cancel</string>
+    <string name="search_hint">search file</string>
 </resources>
