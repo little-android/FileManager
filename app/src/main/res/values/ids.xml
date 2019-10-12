@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="id" name="fragment_container"/>
-    <item type="id" name="menu_item_button_edit"/>
-    <item type="id" name="tool_bar"/>
-    <item type="id" name="tool_bar_title"/>
+    <item name="fragment_container" type="id"/>
+    <item name="navigation_bar" type="id"/>
+    <item name="navigation_button_back" type="id" />
+    <item name="navigation_title" type="id" />
+    <item name="navigation_button_edit" type="id"/>
 
 </resources>

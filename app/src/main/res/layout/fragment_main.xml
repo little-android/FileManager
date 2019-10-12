@@ -7,23 +7,42 @@
     tools:context=".fragment.MainFragment">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@id/tool_bar"
+        android:id="@id/navigation_bar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
-        app:navigationIcon="?attr/homeAsUpIndicator"
         app:layout_constraintTop_toTopOf="parent"
-        app:titleTextColor="@android:color/white">
+        app:titleTextColor="@android:color/white"
+        tools:layout_editor_absoluteX="46dp">
+
+        <ImageButton
+            android:id="@id/navigation_button_back"
+            style="@style/navigation_button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:contentDescription="@string/navigation_button_back" />
 
         <TextView
-            android:id="@id/tool_bar_title"
+            android:id="@id/navigation_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textStyle="bold"
+            android:text="@string/navigation_title"
             android:textColor="@color/black"
-            android:textSize="@dimen/toolBarTitle"
-            android:text="@string/toolBarTitle"/>
+            android:textSize="@dimen/navigation_title"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@id/navigation_button_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/navigation_button_edit"
+            android:textColor="@color/colorNavigationButton"
+            android:textSize="@dimen/navigation_title"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="end"/>
 
     </androidx.appcompat.widget.Toolbar>
 
@@ -31,7 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
         android:background="@color/colorPrimaryDark"
-        app:layout_constraintTop_toBottomOf="@id/tool_bar"/>
+        app:layout_constraintTop_toBottomOf="@id/navigation_bar"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

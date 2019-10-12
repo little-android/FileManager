@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">文件夹</string>
-    <string name="menu_button_cancel">取消</string>
-    <string name="menu_button_edit">编辑</string>
-    <string name="toolBarTitle">所有文件</string>
+    <string name="navigation_button_cancel">取消</string>
+    <string name="navigation_button_edit">编辑</string>
+    <string name="navigation_title">所有文件</string>
+    <string name="navigation_button_back">返回上级目录</string>
 </resources>

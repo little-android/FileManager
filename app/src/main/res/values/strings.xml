@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">FileManager</string>
-    <string name="menu_button_edit">Edit</string>
-    <string name="menu_button_cancel">Cancel</string>
-    <string name="toolBarTitle">Files</string>
+    <string name="navigation_title">Files</string>
+    <string name="navigation_button_back">back to parent folder</string>
+    <string name="navigation_button_edit">Edit</string>
+    <string name="navigation_button_cancel">Cancel</string>
 </resources>

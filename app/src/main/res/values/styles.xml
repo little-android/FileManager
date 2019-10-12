@@ -11,4 +11,11 @@
         <item name="textAllCaps">false</item>
     </style>
 
+    <style name="navigation_button_back">
+        <item name="android:background">@drawable/navigation_button_back</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">56dp</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+
 </resources>

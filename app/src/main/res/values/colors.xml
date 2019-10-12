@@ -5,5 +5,5 @@
     <color name="colorPrimary">#fff4f4f4</color>
     <color name="colorPrimaryDark">#C2C2C2</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="colorActionMenuText">#66ff5a00</color>
+    <color name="colorNavigationButton">#B2FF5A00</color>
 </resources>
