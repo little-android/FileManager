@@ -8,5 +8,6 @@
     <item name="search_bar" type="id" />
     <item name="search_editText" type="id" />
     <item name="navigation_bar_divider" type="id" />
+    <item name="file_list" type="id"/>
 
 </resources>

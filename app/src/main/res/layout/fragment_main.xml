@@ -66,12 +66,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:inputType="text"
             android:background="@drawable/edit_border"
             android:drawableStart="@drawable/ic_search_black_24dp"
             android:hint="@string/search_hint"
             android:padding="5dp"
             android:singleLine="true" />
     </LinearLayout>
+    <!--<androix.recyclerView.widget.RecyclerView-->
+        <!--android:id="@id/file_list"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/search_bar"/>-->
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

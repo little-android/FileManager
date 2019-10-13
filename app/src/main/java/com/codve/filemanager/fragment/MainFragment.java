@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,6 +19,7 @@ public class MainFragment extends Fragment {
     private ImageButton mButtonBack;
     private TextView mTextViewTitle;
     private TextView mTextViewEdit;
+    private Toolbar mToolbar;
 
     public static MainFragment newInstance() {
         return new MainFragment();
@@ -33,7 +35,6 @@ public class MainFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_main, container, false);
         mButtonBack = (ImageButton) view.findViewById(R.id.navigation_button_back);
-
 
         return view;
     }
